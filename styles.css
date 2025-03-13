@@ -74,6 +74,7 @@ header .info p {
     align-items: center;
     width: 100%;
     text-align: left;
+    flex-wrap: wrap; /* 允许换行 */
 }
 
 .profile .student-info .student-photo {
@@ -138,7 +139,7 @@ footer {
 
     /* 个人信息区域 */
     .profile .student-info {
-        flex-direction: column;
+        flex-direction: row; /* 强制横向排列 */
         text-align: center;
     }
 
